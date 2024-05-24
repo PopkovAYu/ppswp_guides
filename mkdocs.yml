@@ -48,7 +48,6 @@ markdown_extensions:
   - toc:
       permalink: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify
-      separator: '%20'
 
 plugins:
   - search
