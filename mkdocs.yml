@@ -46,7 +46,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
   - toc:
-      permalink: false
+      permalink: true
+      slugify: markdown.extensions.toc.slugify_unicode
 
 plugins:
   - search
