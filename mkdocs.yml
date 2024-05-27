@@ -3,6 +3,7 @@ site_name: Пользовательские инструкции генерат�
 theme:
     name: material
     navigation_depth: 5
+    logo: 'images/logo.ai'
     palette:
 
     # Light mode
