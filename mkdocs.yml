@@ -8,8 +8,8 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
-      accent: indigo
+      primary: 3C388D
+      accent: 9FC53A
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -51,7 +51,6 @@ markdown_extensions:
       slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
 
 plugins:
-  - search
   - roamlinks
 
 
