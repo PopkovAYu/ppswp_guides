@@ -1,7 +1,7 @@
 site_name: Пользовательские инструкции генератора ИПРП
 
 theme:
-    name: materail
+    name: material
     navigation_depth: 5
     palette:
 
