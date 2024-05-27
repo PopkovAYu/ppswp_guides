@@ -3,6 +3,7 @@ site_name: Пользовательские инструкции генерат�
 theme:
     name: 'mkdocs'
     navigation_depth: 5
+    palette: stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
