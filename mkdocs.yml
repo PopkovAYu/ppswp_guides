@@ -1,27 +1,8 @@
 site_name: Пользовательские инструкции генератора ИПРП
 
 theme:
-    name: 'readthedocs'
+    name: 'mkdoc'
     navigation_depth: 5
-    palette:
-
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: custom
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: blue
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
 
 # Extensions
 markdown_extensions:
@@ -60,4 +41,5 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
 
-extra_css: [extra.css]
+extra_css: 
+  - stylesheets/extra.css
