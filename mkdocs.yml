@@ -1,7 +1,7 @@
 site_name: Пользовательские инструкции генератора ИПРП
 
 theme:
-    name: 'readthedocs'
+    name: 'mkdocs'
     navigation_depth: 5
     palette:
 
