@@ -1,7 +1,7 @@
 site_name: Пользовательские инструкции генератора ИПРП
 
 theme:
-    name: 'readthedocs'
+    name: 'mkdocs'
     navigation_depth: 5
     palette:
 
@@ -59,3 +59,5 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
+
+extra_css: [extra.css]
