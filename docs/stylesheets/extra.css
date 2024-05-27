@@ -3,4 +3,8 @@
     --md-primary-fg-color--light: #652580;
     --md-primary-fg-color--dark:  #652580;
     --md-footer__inner { display: none }
+    
+  }
+  .navbar-nav {
+    display: none;
   }
