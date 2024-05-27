@@ -1,10 +1,27 @@
 site_name: Пользовательские инструкции генератора ИПРП
 
 theme:
-    name: mkdocs
+    name: materail
     navigation_depth: 5
-    palette: 
-      primary: green
+    palette:
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: stylesheets/extra.css
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: stylesheets/extra.css
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
 # Extensions
 markdown_extensions:
