@@ -4,7 +4,7 @@ theme:
     name: mkdocs
     navigation_depth: 5
     palette: 
-      primary: stylesheets/extra.css
+      primary: green
 
 # Extensions
 markdown_extensions:
